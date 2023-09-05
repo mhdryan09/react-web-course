@@ -14,11 +14,11 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path='/' Component={HomePage} />
-        <Route path='/kelas' Component={KelasPage} />
-        <Route path='/testimonial' Component={TestimonialPage} />
-        <Route path='/faq' Component={FaqPage} />
-        <Route path='/syarat-ketentuan' Component={SyaratKetentuanPage} />
+        <Route path="/" Component={HomePage} />
+        <Route path="/kelas" Component={KelasPage} />
+        <Route path="/testimonial" Component={TestimonialPage} />
+        <Route path="/faq" Component={FaqPage} />
+        <Route path="/syarat-ketentuan" Component={SyaratKetentuanPage} />
       </Routes>
 
       {/* <FooterComponent /> */}
