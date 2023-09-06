@@ -16,7 +16,7 @@
   position: fixed;
   padding: 15px 0 15px 0;
   width: 100%;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   z-index: 9999;
 }
 
@@ -81,6 +81,55 @@ header {
 .homepage .header-box img {
   width: 100%;
 }
+
+/* Homepage - Kelas */
+.homepage .kelas {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.homepage .kelas .row:nth-child(1) {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.homepage .kelas .row:nth-child(1) h1,
+.homepage .kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.homepage .kelas .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+
+.homepage .kelas .row:nth-child(2) .col {
+  background-color: #fff;
+  padding: 0;
+}
+
+.homepage .kelas .row:nth-child(2) img {
+  height: 250px;
+}
+
+.homepage .kelas .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.homepage .kelas .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.homepage .kelas .row:nth-child(3) {
+  padding-top: 100px;
+}
+
+
+
 
 /* Laptop */
 @media screen and (max-width: 992px) {

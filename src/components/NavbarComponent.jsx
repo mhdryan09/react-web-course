@@ -15,8 +15,6 @@ const NavbarComponent = () => {
   };
 
   useEffect(() => {
-    changeBackgroundColor();
-
     // ketika window kita scroll, jalankan changeBackgroundColor
     window.addEventListener('scroll', changeBackgroundColor);
   });
