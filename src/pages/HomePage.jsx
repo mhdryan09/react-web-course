@@ -12,6 +12,8 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 import HeroImage from '../assets/img/hero.png';
+import FaqComponent from '../components/FaqComponent';
+
 const Homepage = () => {
   let navigate = useNavigate(); // useNavigate digunakan untuk mengakses router
 
@@ -42,6 +44,7 @@ const Homepage = () => {
           </Row>
         </Container>
       </header>
+
       <div className="kelas w-100 min-vh-100">
         <Container>
           <Row>
@@ -149,6 +152,14 @@ const Homepage = () => {
           </Row>
         </Container>
       </div>
+
+      <FaqComponent>
+        <Container>
+          <Row>
+            <Col></Col>
+          </Row>
+        </Container>
+      </FaqComponent>
     </div>
   );
 };
