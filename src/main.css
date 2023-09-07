@@ -296,6 +296,62 @@ header {
   margin-top: 100px;
 }
 
+/* Kelas Page */
+.kelas-page .kelas {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.kelas-page .kelas .row:nth-child(1) {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.kelas-page .kelas .row:nth-child(1) h1,
+.kelas-page .kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.kelas-page .kelas .row:nth-child(1) {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.kelas-page .kelas .row:nth-child(1) h1,
+.kelas-page .kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.kelas-page .kelas .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+
+.kelas-page .kelas .row:nth-child(2) .col {
+  background-color: #fff;
+  padding: 0;
+}
+
+.kelas-page .kelas .row:nth-child(2) img {
+  height: 250px;
+}
+
+.kelas-page .kelas .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.kelas-page .kelas .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.kelas-page .kelas .row:nth-child(3) {
+  padding-top: 100px;
+}
+
 /* Laptop */
 @media screen and (max-width: 992px) {
   .homepage .header-box {
