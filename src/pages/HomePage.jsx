@@ -31,7 +31,7 @@ const Homepage = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
                 ab? Reiciendis inventore quibusdam excepturi incidunt.
               </p>
-              <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2">
+              <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate('/kelas')}>
                 Lihat Kelas
               </button>
               <button className="btn btn-outline-danger btn-lg rounded-1 mb-xs-0 mb-2">
