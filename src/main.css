@@ -104,6 +104,7 @@ header {
 .homepage .kelas .row:nth-child(1) h1,
 .homepage .kelas .row:nth-child(1) p {
   color: var(--color-text);
+  animation-delay: 0.5s;
 }
 
 .homepage .kelas .row:nth-child(2) {
