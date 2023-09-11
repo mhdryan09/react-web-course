@@ -104,7 +104,6 @@ header {
 .homepage .kelas .row:nth-child(1) h1,
 .homepage .kelas .row:nth-child(1) p {
   color: var(--color-text);
-  animation-delay: 0.5s;
 }
 
 .homepage .kelas .row:nth-child(2) {
@@ -212,6 +211,7 @@ header {
 
 .faq h2 {
   color: var(--color-text);
+  animation-delay: 0.5s;
 }
 
 .faq .accordion .accordion-button {
@@ -319,6 +319,7 @@ header {
 .kelas-page .kelas .row:nth-child(1) h1,
 .kelas-page .kelas .row:nth-child(1) p {
   color: var(--color-text);
+  animation-delay: 0.5s;
 }
 
 .kelas-page .kelas .row:nth-child(1) {
@@ -375,6 +376,7 @@ header {
 .testimonial-page .testimonial .row:nth-child(1) h1,
 .testimonial-page .testimonial .row:nth-child(1) p {
   color: var(--color-text);
+  animation-delay: 0.5s;
 }
 
 .testimonial-page .testimonial .desc {
@@ -413,6 +415,10 @@ header {
 .syarat-ketentuan-page .syarat-ketentuan {
   padding-top: 150px;
   background-color: var(--primary-color);
+}
+
+.syarat-ketentuan-page .syarat-ketentuan h1 {
+  animation-delay: 0.5s;
 }
 
 .syarat-ketentuan-page .syarat-ketentuan p {
